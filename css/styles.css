@@ -45,7 +45,6 @@ padding: 0;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
    
 }
 
@@ -432,6 +431,7 @@ border-radius: 4px;
 margin-right: 30px;
  margin-top: 50px;
 }
+
 .clients-icons {
 width: 106px;
 height: 60px;
@@ -448,16 +448,26 @@ fill: #2196F3;
 }
 /*--footer-sektion--*/
 
+
 .footer{
-background-color: #2F303A;
-padding-top: 60px;
-padding-bottom: 60px;
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
 }
 
 .footer-list{
 margin-top:20px;
-
 }
+
+.footer-content{
+    display: flex;
+}
+
+
+.footer-box{
+width: 231px;
+}    
 
 .footer-link {
 font-family: 'Raleway', sans-serif;
@@ -496,10 +506,10 @@ margin-bottom: 9px;
 
 
 .footer-icon-box{
-display: block;
 width: 206px;
 height: 80px;
-outline: 2px solid white;
+margin-left: 70px;
+
 }
 
 
@@ -516,7 +526,6 @@ display: block;
 
 .footer-list-icon {
 display: flex;
-outline: 2px solid white;
 margin-top: 20px;
 }
 
@@ -525,7 +534,6 @@ display: block;
 width: 44px;
 padding: 12px;
 background-color:rgba(255, 255, 255, 0.1);
-outline: 2px solid white;
 border-radius: 100px;
 margin-right: 10px;
 
