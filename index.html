@@ -23,19 +23,18 @@
                     <li class="header-list"><a href="Контакты" class="header-list-nav link">Контакты</a></li>
                 </ul>
                
-                <ul class="header-contacts list">  
-                    <li class="header-icon">
-                        <svg class="header-icon-nav">
-                            <use href="./images/icons.svg#icon-envelope-hover"></use>
-                        </svg>
-                    </li>  
-                    <li class="header-list "><a  href="info@devstudio.com" class="contacts-link link">info@devstudio.com</a> </li>
-                    <li svg class="header-icon-nav">
-                        <svg class="header-icon-img">
-                            <use href="./images/icons.svg#icon-Vector"></use>
-                        </svg>
+                <ul class="header-contacts list"> 
+                    <li class="header-list">
+                        <a  href="info@devstudio.com" class="contacts-link link">
+                            <svg class="header-icon-nav"><use href="./images/icons.svg#icon-envelope-hover"></use></svg>info@devstudio.com
+                        </a> 
                     </li>
-                    <li class="header-list "><a href="+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
+                    
+                    <li class="header-list">
+                        <a href="+380961111111" class="contacts-link link"> 
+                            <svg class="header-icon-img"><use href="./images/icons.svg#icon-Vector"></use></svg>+38 096 111 11 11
+                        </a>
+                    </li>
                 </ul>
            </nav>
         </div>
@@ -44,8 +43,8 @@
       
     <main> 
         <section class="hero">
-            <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ<br> ВАШЕГО БИЗНЕСА</h1>
-            <button type="button" class="hero-btn">Заказать услугу</button>
+            <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button type="button" class="hero-btn" data-modal-open>Заказать услугу</button>
         </section>
 
     
@@ -103,13 +102,16 @@
               <h2 class="specialization-title">Чем мы занимаемся</h2>
                 <ul class="specialization-list list">
                     <li class="specialization-items">
-                        <img src="images/box1.jpg" alt="разроботка" width="370"> 
+                            <img class="specialization-img" src="images/box1.jpg" alt="разроботка" width="370"> 
+                            <p class="specialization-text">Десктопные приложения</p>
                     </li>
                     <li class="specialization-items">
-                        <img src="images/img.png" alt="дизайн" width="370">
+                        <img class="specialization-img" src="images/img.png" alt="дизайн" width="370">
+                        <p class="specialization-text">Мобильные приложения</p>
                     </li>
                     <li class="specialization-items">
-                        <img src="images/img2.png" alt="графика" width="370">
+                        <img class="specialization-img" src="images/img2.png" alt="графика" width="370">
+                        <p class="specialization-text">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>     
@@ -127,25 +129,33 @@
                              <h3 class="command-title-text">Игорь Демьяненко</h3>
                              <p class="command-text">Product Designer</p>
                             <div class="command-box-svg">
-                                <div class="command-icon-nstagram">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
+                                <div>
+                                    <a href=""  class="command-icon__link">
+                                        <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
                                 </div>
                                 <div class="command-icon-twit">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-twit"></use>
-                                    </svg>
+                                    <a href="" class="command-icon__link">
+                                        <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-twit"></use>
+                                        </svg>
+                                    </a>
                                 </div>
                                 <div class="command-icon-facebook">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
+                                   <a href=""  class="command-icon__link">
+                                        <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                   </a>
                                 </div>
                                 <div class="command-icon-linkedin">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
+                                    <a href="" class="command-icon__link">
+                                          <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                          </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>     
@@ -157,25 +167,33 @@
                                 <h3 class="command-title-text">Ольга Репина</h3>
                                 <p class="command-text">Frontend Developer</p>
                                 <div class="command-box-svg">
-                                    <div class="command-icon-nstagram">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-instagram"></use>
-                                        </svg>
+                                    <div>
+                                        <a href=""  class="command-icon__link">
+                                            <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
                                     </div>
                                     <div class="command-icon-twit">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-twit"></use>
-                                        </svg>
+                                        <a href="" class="command-icon__link">
+                                            <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-twit"></use>
+                                            </svg>
+                                        </a>
                                     </div>
                                     <div class="command-icon-facebook">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-facebook"></use>
-                                        </svg>
+                                       <a href=""  class="command-icon__link">
+                                            <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                       </a>
                                     </div>
                                     <div class="command-icon-linkedin">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-linkedin"></use>
-                                        </svg>
+                                        <a href="" class="command-icon__link">
+                                              <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                              </svg>
+                                        </a>
                                     </div>
                                 </div>
                           </div>
@@ -187,27 +205,34 @@
                                 <h3 class="command-title-text">Николай Тарасов</h3>
                                 <p class="command-text">Marketing</p>
                                 <div class="command-box-svg">
-                                    <div class="command-icon-nstagram">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-instagram"></use>
-                                        </svg>
+                                    <div>
+                                        <a href=""  class="command-icon__link">
+                                            <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
                                     </div>
                                     <div class="command-icon-twit">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-twit"></use>
-                                        </svg>
+                                        <a href="" class="command-icon__link">
+                                            <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-twit"></use>
+                                            </svg>
+                                        </a>
                                     </div>
                                     <div class="command-icon-facebook">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-facebook"></use>
-                                        </svg>
+                                       <a href=""  class="command-icon__link">
+                                            <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                       </a>
                                     </div>
                                     <div class="command-icon-linkedin">
-                                        <svg class="command-icon">
-                                        <use href="./images/icons.svg#icon-linkedin"></use>
-                                        </svg>
+                                        <a href="" class="command-icon__link">
+                                              <svg class="command-icon">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                              </svg>
+                                        </a>
                                     </div>
-                                </div>
                             </div>
                     </li>
 
@@ -217,25 +242,33 @@
                             <h3 class="command-title-text">Михаил Ермаков</h3>
                             <p class="command-text">UI Designer</p>
                             <div class="command-box-svg">
-                                <div class="command-icon-nstagram">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
+                                <div>
+                                    <a href=""  class="command-icon__link">
+                                        <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
                                 </div>
                                 <div class="command-icon-twit">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-twit"></use>
-                                    </svg>
+                                    <a href="" class="command-icon__link">
+                                        <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-twit"></use>
+                                        </svg>
+                                    </a>
                                 </div>
                                 <div class="command-icon-facebook">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
+                                   <a href=""  class="command-icon__link">
+                                        <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                   </a>
                                 </div>
                                 <div class="command-icon-linkedin">
-                                    <svg class="command-icon">
-                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
+                                    <a href="" class="command-icon__link">
+                                          <svg class="command-icon">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                          </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -250,35 +283,47 @@
   <div class="conteiner">
             <h2 class="clients-title">Постоянные клиенты</h2>
             <ul class="clients-list list">
-                <li class="clients-list-items">
-                    <svg class="clients-icons"> 
-                        <use href="images/icons.svg#icon-group1"></use>
-                    </svg>
+                <li >
+                    <a href="" class="clients-list-items">
+                        <svg class="clients-icons"> 
+                            <use href="images/icons.svg#icon-group1"></use>
+                        </svg>
+                    </a>
                 </li>
-                <li class="clients-list-items">
-                    <svg class="clients-icons"> 
-                        <use href="images/icons.svg#icon-group2"></use>
-                    </svg>
+                <li>
+                    <a href="" class="clients-list-items">
+                        <svg class="clients-icons"> 
+                            <use  href="images/icons.svg#icon-group2"></use>
+                        </svg>
+                    </a>
                 </li>
-                <li class="clients-list-items">
-                    <svg class="clients-icons"> 
-                        <use href="images/icons.svg#icon-group3"></use>
-                    </svg>
+                <li >
+                    <a href="" class="clients-list-items">
+                        <svg class="clients-icons">
+                            <use href="images/icons.svg#icon-group3"></use>
+                        </svg>
+                    </a>
                 </li>
-                <li class="clients-list-items">
-                    <svg class="clients-icons"> 
-                        <use href="images/icons.svg#icon-group4"></use>
-                    </svg>
+                <li >
+                    <a href="" class="clients-list-items">
+                        <svg class="clients-icons">
+                            <use href="images/icons.svg#icon-group4"></use>
+                        </svg>
+                    </a>
                 </li>
-                <li class="clients-list-items">
-                    <svg class="clients-icons"> 
-                        <use href="images/icons.svg#icon-group5"></use>
-                    </svg>
+                <li >
+                    <a href="" class="clients-list-items">
+                        <svg class="clients-icons">
+                            <use href="images/icons.svg#icon-group5"></use>
+                        </svg>
+                    </a>
                 </li>
-                <li class="clients-list-items">
-                    <svg class="clients-icons"> 
-                        <use href="images/icons.svg#icon-group6"></use>
-                    </svg>
+                <li >
+                    <a href="" class="clients-list-items">
+                        <svg class="clients-icons"> 
+                            <use href="images/icons.svg#icon-group6"></use>
+                        </svg>
+                      </a>
                 </li>
             </ul>
   </div>               
@@ -301,30 +346,43 @@
             <div class="footer-icon-box">
                  <p class="footer-text-icon">присоединяйтесь</p>
                    <ul class="footer-list-icon list">
-                        <li class="footer-item-icon">
-                            <svg class="footer-icon">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
+                        <li >
+                            <a href="" class="footer-item-icon">
+                                <svg class="footer-icon">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="footer-item-icon">
-                            <svg class="footer-icon">
-                                <use href="./images/icons.svg#icon-twit"></use>
-                            </svg>
+                        <li >
+                            <a href="" class="footer-item-icon">
+                                <svg class="footer-icon">
+                                   <use href="./images/icons.svg#icon-twit"></use>
+                                </svg>
+                           </a>
                         </li>
-                        <li class="footer-item-icon">
-                            <svg class="footer-icon">
+                        <li >
+                            <a href="" class="footer-item-icon">
+                                <svg class="footer-icon">
                                 <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
+                             </svg>
+                            </a>
                         </li>
-                        <li class="footer-item-icon">
-                            <svg class="footer-icon">
+                        <li >
+                            <a href="" class="footer-item-icon">
+                                <svg class="footer-icon">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
+                             </svg>
+                            </a>
                         </li>
                    </ul>
           </div>
        </div>
   </footer>
-   
+  <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+          <button class="button-modal" type="button" data-modal-close>X</button>
+      </div>
+  </div> 
+  <script src="./js/modal.js"></script>
 </body>
 </html>                        
